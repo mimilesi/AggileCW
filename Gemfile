@@ -10,8 +10,7 @@ gem 'gravatar_image_tag', '1.0.0.pre2'
 gem 'heroku'
 gem 'json'
 gem 'spork', '~> 0.9.0.rc'
-gem 'will_paginate', '~> 3.0.2'
-
+gem "paperclip", "~> 2.0"
 
 
 group :development do
