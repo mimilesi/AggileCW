@@ -210,6 +210,9 @@ h2 a {
 }
 
 #page .column2{
+	text-align:center;
+	margin-left: 5px;
+	margin-bottom: 5px;
 	float: right;
 	width: 355px;
 	
@@ -277,7 +280,8 @@ a.signup_button {
 }
 
 #footer-content a {
-	color: #AA8B55;
+	color: #FFCC66;
+	text-align:right;
 }
 
 #footer-content a:hover {
@@ -286,6 +290,12 @@ a.signup_button {
 
 .list li {
 	margin-bottom: 6px;
+	margin-top: 6px;
+	margin-left: 3px;
+	text-decoration:blink;
+	text-align:right;
+}
+#footer-content ul li a:hover;
 }
 
 #footer {
@@ -410,6 +420,7 @@ div.field, div.actions {
 	margin-right: auto;
 	overflow: auto;
 	visibility: visible;
+	text-align: justify;
 	
 	
 }
