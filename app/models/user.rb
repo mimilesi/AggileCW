@@ -41,8 +41,8 @@ class User < ActiveRecord::Base
             :confirmation => true,
             :length       => { :within => 6..40 }
             
-            
-  
+
+                                
    before_save :encrypt_password
    
    def password_matches?(submitted_password)

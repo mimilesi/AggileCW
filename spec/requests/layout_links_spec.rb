@@ -43,8 +43,6 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "Contact")
     click_link "Home"
     response.should have_selector('title', :content => "Home")
-    click_link "Events"
-    response.should have_selector('title', :content => "Events")
     click_link "Find Us"
     response.should have_selector('title', :content => "Find Us")
     response.should have_selector('a[href="/"]>img')
