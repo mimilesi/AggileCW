@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <%= csrf_meta_tags %>
+	 <%= stylesheet_link_tag "application" %>
+	 <%= javascript_include_tag "application" %>
+	 <%= stylesheet_link_tag :all %>
+	 <%= javascript_include_tag :defaults %>
+	
+</head>
+
+
+<body>
+	<div id="wrapper">
+		<ul id="tagline">
+			<h1> Welcome to Friends of Box Hills </h1>
+		</ul>	
+		
+		
+    <%= render 'layouts/header'%>
+	<%= render 'layouts/menu'%>
+	<div id="page">
+		<div id="content">
+		<div class="textarea">	
+ 			<p >
+				<% flash.each do |key, value| %>
+				          <div class="flash <%= key %>"><%= value %></div>
+				 <% end %>
+				<%= yield %>	
+	        </p>
+		</div><%# end of text box %>
+		</div><%#end of content%>
+		
+		
+	</div> <%#end of page%>
+
+</div> <%# end of wrapper %>			
+
+
+
+<%= render 'layouts/footer-content'%>
+<%= render 'layouts/footer'%>
+
+<%= debug(params) if Rails.env.development? %>
+<!-- end #footer -->
+</body>
+</html>
