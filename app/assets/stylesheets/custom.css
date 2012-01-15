@@ -185,11 +185,9 @@ h2 a {
 
 
 #menu li.current_page_item a {
-	background: url(img06.jpg);
-	background-repeat: no-repeat;
-	background-position:left top;
+
 	padding-left: 0;
-	color: #493E2B;
+	color: #FFFFFF;
 }
 
 /**************************************************************************/
@@ -221,7 +219,7 @@ h2 a {
 a.signup_button {
   margin-left: 80px;
   margin-right: auto;
-  margin-top: 300px;
+  margin-top: 30px;
   display: block;
   text-align: center;
   width: 180px;
@@ -425,7 +423,7 @@ div.field, div.actions {
 
 	left:280px;
 	top:380px;
-	width:700px;
+	width:850px;
 	height:600px;
 	overflow: auto;
 	visibility: visible;
@@ -469,7 +467,7 @@ div.pagination {
 	position: absolute;
 }
 
-/**************************************************************************/
+
 
 /* Microposts */
 
